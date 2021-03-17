@@ -1,0 +1,100 @@
+@font-face {
+	src: url(fonts/RobotoSlab-Light.ttf);
+	font-family: roboto;
+}
+
+header, body {
+	font-family: roboto;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+header > p {
+	line-height: 30px ;
+	font-style: italic; 
+	font-size: 120%;
+}
+
+header > h1 {
+	text-transform: uppercase;
+}
+
+a {
+	font-family: roboto;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	text-align: center;
+}
+
+footer {
+	background-image: url('kefka.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+footer + p {
+	background-color: purple;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px
+}
+
+nav{
+	background-image: url('https://static.wikia.nocookie.net/finalfantasy/images/0/06/Finalboss-ffvi.png/revision/latest?cb=20120529205119'),
+	url('https://static.wikia.nocookie.net/finalfantasy/images/0/06/Finalboss-ffvi.png/revision/latest?cb=20120529205119');
+	background-size: auto ;
+	background-position: left, right; 
+	background-repeat: no-repeat;
+}
+
+.des{
+	color: blue;
+}
+
+
+#skills {
+	background-color: purple;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px
+}
+
+
+#credit {
+	background-color: purple;
+	border-radius: 15px;
+	text-align: center;
+	line-height: 30px
+}
+
+.question {
+	color: pink;
+	text-align: left;
+}
+
+.question > h1 {
+	color: white;
+	text-align: left;
+}
+
+#credit a:hover {
+	color: yellow;
+}
+
+
+.Summons > p{
+	display: inline-block;
+	background-color: violet;
+	border-radius: 15px;
+	color: black;
+	border: 20px solid violet;
+}
+
+#author{
+	clear: both;
+}
